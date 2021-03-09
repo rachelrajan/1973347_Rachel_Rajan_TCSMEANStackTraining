@@ -1,0 +1,7 @@
+Rachel Rajan
+TCS Employee ID: 1973347
+The github link to section end angular project is https://github.com/rachelrajan/1973347_Rachel_Rajan_TCSMEANStackTraining.git
+
+I have created:
+    1. The demo HTML file
+    2. Angular app folder with readme.txt file.
