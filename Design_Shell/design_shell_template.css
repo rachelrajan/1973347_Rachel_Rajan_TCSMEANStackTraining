@@ -1,0 +1,31 @@
+.bg_img{
+    margin: auto;
+    width: 1200px;
+    height: 1200 px;
+    background-image: url("vegan.jpg");
+    background-color:blue;
+}
+.intro{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+.intro-sub{
+    font-size: large;
+    text-align: left;
+    font-style: italic;
+    background-color:peru;
+    border-style: dotted;
+}
+
+.info-deets{
+    border: 5px solid burlywood;
+    text-align: left;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+
