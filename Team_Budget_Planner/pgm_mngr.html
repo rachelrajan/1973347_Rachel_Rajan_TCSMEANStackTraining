@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="json_planner.js"></script>
+    <link rel="stylesheet" href="planner_template.css">
+</head>
+
+<body>
+    <h1>Program Managers</h1>
+    <h2>Add New Budget</h2>
+    <form action="fin_team.html" method="POST">
+        <label> Client Name</label>
+        <input type="text" id="client_name"/><br />
+        <label>Project Name</label>
+        <input type="text" id="project_name"/><br />
+        <label>Budget</label>
+        <input type="number" id="budget"/><br/>
+
+        <input type="button" value="Add" onclick="onFormSubmit()" /><br />
+        <input type="button" value="Clear" onclick="onClearSubmit()" /><br />
+        <input type="button" value="Back" onclick="history.back()" /><br />
+        
+    </form>
+
+</body>
+
+</html>
