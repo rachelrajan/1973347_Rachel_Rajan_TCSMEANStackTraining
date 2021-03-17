@@ -10,7 +10,7 @@ function onFormSubmit(){
     {
      budgetPlanner= JSON.parse(sessionStorage.getItem('budgetPlanner'));
     }else{
-     var budgetPlanner=[];
+     var budgetPlanner= [];
     }
     budgetPlanner.push(data)
     sessionStorage.setItem('budgetPlanner', JSON.stringify(budgetPlanner));

@@ -1,4 +1,5 @@
-var ret_data = sessionStorage.getItem('budgetPlanner');
+function retrieveSession(){
+    var ret_data = sessionStorage.getItem('budgetPlanner');
 console.log('retrievedData: ', JSON.parse(ret_data));
 
 ret_data = JSON.parse(ret_data)
@@ -14,4 +15,5 @@ cell2.innerHTML=ret_data.project_name;
 
 var cell3 = newRow.insertCell(1);          
 cell3.innerHTML=ret_data.budget; 
+}
 
