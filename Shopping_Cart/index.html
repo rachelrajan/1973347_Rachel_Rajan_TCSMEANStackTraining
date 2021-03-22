@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="index_script.js"></script>
+    <link rel="stylesheet" href="index_template.css">
+
+</head>
+<body>
+  <h1>Welcome to Vegan Recipes</h1>
+  <br/><br/>
+  <h2>Shopping Cart</h2>
+  <a href = "checkout.html">Checkout</a>
+  <br/><br/>
+  <form action = "checkout.html">
+  <div class = "row">
+    <div class = col-4 id ="d1" > 
+      <p style = font-weight:bold>Berry Smoothie</p>
+      <img src = "berry.jpg"/><br/>
+      Nutritional Value: 214 calories<br/>
+      Price:<span class = "d1_price"> $10.00</span> <br/>
+      <input type = "button" value = "Add" onclick = Add() class = "add-cart cart1"/></div>
+
+    <div class = col-4 id ="d2"> 
+      <p style = font-weight:bold>Oatmeal Pancake</p>
+      <img src = "oatmeal.jpg"/><br/>
+      Nutritional Value: 269.8 calories<br/>
+      Price:<span class = "d2_price"> $15.00</span> <br/>
+      <input type = "button" value = "Add" onclick = Add() class = "add-cart cart2"/></div>
+
+    <div class = col-4 id ="d3">
+      <p style = font-weight:bold>Grilled Tofu Salad</p>
+      <img src = "salad.jpg"/><br/>
+      Nutritional Value: 560 calories<br/>
+      Price:<span class = "d3_price"> $25.00</span> <br/>
+      <input type = "button" value = "Add" onclick = Add() class = "add-cart cart3"/></div>
+
+    <div class = col-4 id="d4"> 
+      <p style = font-weight:bold>Vegan Taco</p>
+      <img src = "taco.jpg"/><br/>
+      Nutritional Value: 407 calories<br/>
+      Price:<span class = "d4_price"> $20.00</span> <br/>
+      <input type = "button" value = "Add" onclick = Add() class = "add-cart cart4"/></div>
+
+  </div>
+
+</form>
+        
+</body>
+</html>
