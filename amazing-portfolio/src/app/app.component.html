@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>Welcome to VEGAN recipes Website!</h1>
+  <br/>
+  
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a routerLink ="signup" class = "nav-link">Sign Up</a><br/>
+        </li>
+        <li class="nav-item">
+          <a routerLink ="login" class = "nav-link">Login</a><br/>
+        </li>
+        <li class="nav-item">
+          <a routerLink ="portfolio" class = "nav-link">Portfolio</a><br/>
+        </li>
+        <li class="nav-item">
+          <a routerLink ="contactus" class = "nav-link">Contact Us</a><br/>
+        </li>
+    </ul>
+    <br/>
+    <h2>Please Sign Up or Login for more details and to subscribe to our exciting products!</h2>
+  
+    <router-outlet></router-outlet>
+</body>
+
+</html>
