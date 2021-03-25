@@ -1,0 +1,17 @@
+
+<br/><br/>
+<h2>Welcome Alison</h2>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<div>
+<form>
+    <label>Name</label> <input type = "text" #sname/><br/>
+    <label>Contact Info</label> <input type = "text" #snum/><br/>
+    <input type = "button" value = "Save Info" (click) = "saveData(sname.value, snum.value)"
+     class = "btn btn-primary"/>
+    <input type = "reset" value = "reset" class = "btn btn-secondary"/>
+    <br/>
+    <ul *ngFor = "let info_list of list"><li >{{info_list}}</li></ul><br/>
+</form>
+
+</div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  list: Array<any> = new Array();
+  
+  constructor(public router:Router) { }
 
   ngOnInit(): void {
   }
 
+  saveData(name:any, num:any){
+    return this.list.push(name,num);
+    
+  }
+   
 }
