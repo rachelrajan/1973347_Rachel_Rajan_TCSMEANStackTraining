@@ -1,0 +1,17 @@
+<div *ngIf="!quizOver">
+    <app-question [QIdx]="currentIndex"
+                  (answers) ="recvdAnswer($event)"
+                  (totalQuestions)="totalQuestion($event)" >
+    </app-question>
+    <br>
+    <button class="btn btn-primary" (click)="prev()">Previous</button> |
+    <button class="btn btn-success" (click)="next()">Next</button>
+    </div>
+    
+    <div *ngIf="quizOver" class="border">
+      <h4>End of Quiz!</h4>
+      Your score is {{score}} / {{totalQuestions}}
+      {{msg}}
+      <br>
+      <button (click)="restart()">Restart Quiz</button>
+    </div>

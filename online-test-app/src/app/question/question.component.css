@@ -1,0 +1,19 @@
+h3{
+    font-size: x-large;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:peru;
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+input{
+    padding: 8px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  
+  }

@@ -1,0 +1,33 @@
+body{
+    margin: auto;
+    width: 1200px;
+    height: 1200 px;
+    background-image: url("quiz.jpg");
+    background-color:wheat;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+h2{
+    font-size: large;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:peru;
+    border-style: dotted;
+    border-radius: 20px;
+}
+a{
+    font-size: large;
+    background-color: bisque;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+

@@ -1,0 +1,14 @@
+<div>
+<h3>Question {{QIdx+1}} of {{questions.length}}</h3>
+<br>
+<h5>{{currentQuestion}}</h5>
+<p *ngFor="let option of currentOptions">
+  <input
+    (click)="clickedAnswer(option)"
+    type="radio"
+    value={{option}}
+    name="answer"/> {{option}}
+</p>
+</div>
+
+
