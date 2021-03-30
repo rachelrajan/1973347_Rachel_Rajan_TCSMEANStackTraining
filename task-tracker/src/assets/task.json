@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": "100",
+      "name": "Alex",
+      "task": "Complete data collection",
+      "deadline": "April 2nd, 2021"
+    },
+    {
+      "id": "102",
+      "name": "Betty",
+      "task": "Data Pre-processing",
+      "deadline": "2021-04-01"
+    },
+    {
+      "id": "103",
+      "name": "Camille",
+      "task": "Feature Engineering",
+      "deadline": "2021-04-03"
+    },
+    {
+      "id": "104",
+      "name": "Denis",
+      "task": "Design Architecture",
+      "deadline": "2021-04-06"
+    },
+    {
+      "id": "105",
+      "name": "Reba",
+      "task": "Training model",
+      "deadline": "2021-04-10"
+    },
+    {
+      "id": "UYX3qqo",
+      "name": "",
+      "task": "",
+      "deadline": ""
+    }
+  ]
+}

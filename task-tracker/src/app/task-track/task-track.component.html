@@ -1,0 +1,49 @@
+<div>
+    <h2>Task Tracking Details</h2>
+    <form #taskRef = "ngForm" (ngSubmit) = "storeTasks(taskRef.value)">
+        <mat-form-field>
+            <mat-label>Id</mat-label>
+            <input matInput type ="text" name = "id" ngModel/>
+        </mat-form-field>
+        &nbsp;
+        <br/>
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput type ="text" name="name" ngModel/>
+        </mat-form-field>
+        <br/>
+        <mat-form-field>
+            <mat-label>Tasks</mat-label>
+            <input matInput type ="textarea" name="task" ngModel/>
+        </mat-form-field>
+        <br/>
+        <mat-form-field>
+            <mat-label>Deadline</mat-label>
+            <input matInput type ="date" name="deadline" ngModel/>
+        </mat-form-field>
+        <br/>
+        <button mat-stroked-button class="primary" style="background-color:chocolate" type = "submit">
+            Submit</button>
+        <button mat-stroked-button class="primary" style="background-color:grey" type = "reset">
+                Reset</button>
+
+    </form>
+    <hr/>
+</div>
+<div>
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Tasks</th>
+            <th>Deadline</th>
+        </tr>
+        <tr *ngFor="let tk of tasks">
+                <td>{{tk.id}}</td>
+                <td>{{tk.name}}</td>
+                <td>{{tk.task}}</td>
+                <td>{{tk.deadline}}</td>
+        </tr>
+    </table>
+    
+</div>
