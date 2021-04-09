@@ -1,0 +1,26 @@
+[
+  {
+    "empid": "101",
+    "taskid": "121",
+    "task": "Data collection",
+    "date": "2021-04-12"
+  },
+  {
+    "empid": "103",
+    "taskid": "123",
+    "task": "Data Pre-processing",
+    "date": "2021-04-15"
+  },
+  {
+    "empid": "104",
+    "taskid": "124",
+    "task": "Design Architecture",
+    "date": "2021-04-19"
+  },
+  {
+    "empid": "105",
+    "taskid": "125",
+    "task": "Training model",
+    "date": "2021-04-23"
+  }
+]
