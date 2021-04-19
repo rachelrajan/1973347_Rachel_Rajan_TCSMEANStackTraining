@@ -1,0 +1,6 @@
+[{"_id":"101","cname":"Java","dptn":"Java Object Oriented Programming","amnt":"2000$"},
+    {"_id":"102","cname":"Python","dptn":"Python for Data Science","amnt":"3000$"},
+    {"_id":"103","cname":"Angular","dptn":"Angular for Full Stack web development","amnt":"4000$"},
+    {"_id":"104","cname":"AWS","dptn":"AWS for cloud service/deployment","amnt":"2500$"},
+    {"_id":"105","cname":"PySpark","dptn":"PySpark for Machine Learning","amnt":"3500$"},
+    {"_id":"106","cname":"MongoDb","dptn":"MongoDb for NoSql database","amnt":"2800$"}]
