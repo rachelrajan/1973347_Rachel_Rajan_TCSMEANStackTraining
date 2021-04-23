@@ -1,0 +1,1 @@
+console.log("Welcome to Jenkins running Node JS application")
